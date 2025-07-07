@@ -173,7 +173,6 @@ The application uses Winston for logging with different log levels:
 - Warning logs: `logs/warn.log`
 - Combined logs: `logs/combined.log`
 
-## Base URL
-All API endpoints are accessible under: `http://3.87.183.111/api`
+
 
 
