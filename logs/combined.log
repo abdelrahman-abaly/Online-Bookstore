@@ -1,0 +1,680 @@
+{"level":"info","message":"Fetching all books","timestamp":"2025-03-06T14:55:00.615Z"}
+{"level":"info","message":"Fetching all books","timestamp":"2025-03-06T14:57:56.841Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:14:57:56 +0000] \"GET /book/allbooks HTTP/1.1\" 200 641 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T14:57:56.847Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:18:05:15 +0000] \"POST /user/signup HTTP/1.1\" 500 36 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T18:05:15.133Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:18:05:53 +0000] \"POST /user/signup HTTP/1.1\" 500 36 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T18:05:53.545Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:18:08:24 +0000] \"POST /user/signup HTTP/1.1\" 500 36 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T18:08:24.363Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:18:08:34 +0000] \"POST /user/signup HTTP/1.1\" 500 36 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T18:08:34.759Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:18:11:00 +0000] \"POST /user/signup HTTP/1.1\" 500 36 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T18:11:00.777Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:18:14:42 +0000] \"POST /user/signup HTTP/1.1\" 500 36 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T18:14:42.774Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:18:15:11 +0000] \"POST /user/signup HTTP/1.1\" 201 523 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T18:15:11.841Z"}
+{"email":"gmalak541@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-06T18:16:40.117Z"}
+{"email":"gmalak541@gmail.com","level":"info","message":"User signed up successfully","timestamp":"2025-03-06T18:16:40.760Z","userId":"67c9e6885d399a9cbc367ff3"}
+{"level":"info","message":"::1 - - [06/Mar/2025:18:16:40 +0000] \"POST /user/signup HTTP/1.1\" 201 523 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T18:16:40.768Z"}
+{"email":"gmalak541@gmail.com","level":"info","message":"Confirm Email request received","timestamp":"2025-03-06T18:17:20.290Z"}
+{"level":"info","message":"Email confirmed successfully: gmalak541@gmail.com","timestamp":"2025-03-06T18:17:20.640Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:18:17:20 +0000] \"PATCH /user/confirm-email HTTP/1.1\" 200 145 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T18:17:20.641Z"}
+{"email":"gmalak541@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-06T18:17:30.234Z"}
+{"level":"info","message":"User signed in successfully: gmalak541@gmail.com","timestamp":"2025-03-06T18:17:30.493Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:18:17:30 +0000] \"POST /user/signin HTTP/1.1\" 202 257 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T18:17:30.494Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:18:17:53 +0000] \"PATCH /user/update HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T18:17:53.667Z"}
+{"level":"info","message":"User updated successfully: 67c9e6885d399a9cbc367ff3","timestamp":"2025-03-06T18:20:49.372Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:18:20:49 +0000] \"PATCH /user/update HTTP/1.1\" 200 470 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T18:20:49.376Z"}
+{"level":"info","message":"Book created successfully","timestamp":"2025-03-06T22:42:54.957Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:42:54 +0000] \"POST /book/addbook HTTP/1.1\" 201 210 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:42:54.966Z"}
+{"level":"info","message":"Fetching all books","timestamp":"2025-03-06T22:42:59.651Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:42:59 +0000] \"GET /book/allbooks HTTP/1.1\" 200 572 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:42:59.653Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:44:45 +0000] \"PATCH /book/27 HTTP/1.1\" 200 210 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:44:45.125Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:45:16 +0000] \"PATCH /book/27 HTTP/1.1\" 200 221 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:45:16.681Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:45:23 +0000] \"GET /book/allbooks HTTP/1.1\" 200 535 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:45:23.161Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:57:55 +0000] \"GET /book/allbooks HTTP/1.1\" 200 535 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:57:55.455Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:58:16 +0000] \"DELETE /book/25 HTTP/1.1\" 200 39 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:58:16.676Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:58:22 +0000] \"DELETE /book/26 HTTP/1.1\" 200 39 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:58:22.048Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:58:26 +0000] \"DELETE /book/27 HTTP/1.1\" 200 39 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:58:26.417Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:58:30 +0000] \"GET /book/allbooks HTTP/1.1\" 200 2 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:58:30.907Z"}
+{"level":"error","message":"Error creating book: Books validation failed: reviews.0: Cast to [ObjectId] failed for value \"[ '1' ]\" (type string) at path \"reviews.0\" because of \"CastError\"","timestamp":"2025-03-06T23:43:12.430Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:23:43:12 +0000] \"POST /book/addbook HTTP/1.1\" 400 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T23:43:12.437Z"}
+{"level":"info","message":"Book created successfully","timestamp":"2025-03-06T23:43:56.713Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:23:43:56 +0000] \"POST /book/addbook HTTP/1.1\" 201 341 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T23:43:56.717Z"}
+{"level":"error","message":"Error creating book: Books validation failed: title: Path `title` (`a`) is shorter than the minimum allowed length (3)., author: Path `author` is required., price: Path `price` (-5) is less than minimum allowed value (0)., stock: Validator failed for path `stock` with value `3.5`","timestamp":"2025-03-06T23:45:17.556Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:23:45:17 +0000] \"POST /book/addbook HTTP/1.1\" 400 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T23:45:17.557Z"}
+{"level":"info","message":"Fetching all books","timestamp":"2025-03-06T23:46:46.404Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:23:46:46 +0000] \"GET /book/allbooks HTTP/1.1\" 200 344 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T23:46:46.407Z"}
+{"level":"info","message":"Book created successfully","timestamp":"2025-03-07T00:45:02.884Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:00:45:02 +0000] \"POST /book/addbook HTTP/1.1\" 201 357 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T00:45:02.893Z"}
+{"level":"info","message":"Book created successfully","timestamp":"2025-03-07T00:56:28.771Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:00:56:28 +0000] \"POST /book/addbook HTTP/1.1\" 201 312 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T00:56:28.775Z"}
+{"level":"info","message":"Fetching all books","timestamp":"2025-03-07T01:28:51.639Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:01:28:51 +0000] \"GET /book/allbooks HTTP/1.1\" 200 921 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T01:28:51.658Z"}
+{"email":"admin1@example.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T01:47:53.599Z"}
+{"level":"warn","message":"Failed login attempt for email: admin1@example.com","timestamp":"2025-03-07T01:47:53.823Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:01:47:53 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T01:47:53.838Z"}
+{"email":"admin2@example.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T01:55:03.140Z"}
+{"level":"warn","message":"Failed login attempt for email: admin2@example.com","timestamp":"2025-03-07T01:55:03.492Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:01:55:03 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T01:55:03.495Z"}
+{"email":"admin2@example.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T02:14:26.801Z"}
+{"level":"warn","message":"Failed login attempt for email: admin2@example.com","timestamp":"2025-03-07T02:14:26.947Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:14:26 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:14:26.963Z"}
+{"email":"admin2@example.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T02:19:16.443Z"}
+{"level":"warn","message":"Failed login attempt for email: admin2@example.com","timestamp":"2025-03-07T02:19:16.634Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:19:16 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:19:16.645Z"}
+{"email":"admin2@example.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T02:22:31.257Z"}
+{"level":"warn","message":"Failed login attempt for email: admin2@example.com","timestamp":"2025-03-07T02:22:31.401Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:22:31 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:22:31.412Z"}
+{"email":"admin2@example.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T02:23:37.356Z"}
+{"level":"warn","message":"Failed login attempt for email: admin2@example.com","timestamp":"2025-03-07T02:23:37.555Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:23:37 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:23:37.563Z"}
+{"email":"admin2@example.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T02:31:56.007Z"}
+{"level":"warn","message":"Failed login attempt for email: admin2@example.com","timestamp":"2025-03-07T02:31:56.183Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:31:56 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:31:56.196Z"}
+{"email":"admin2@example.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T02:40:53.111Z"}
+{"level":"warn","message":"Failed login attempt for email: admin2@example.com","timestamp":"2025-03-07T02:40:53.234Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:40:53 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:40:53.238Z"}
+{"email":"admin2@example.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T02:45:55.272Z"}
+{"level":"warn","message":"Failed login attempt for email: admin2@example.com","timestamp":"2025-03-07T02:45:55.426Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:45:55 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:45:55.440Z"}
+{"email":"admin2@example.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T02:46:32.815Z"}
+{"level":"warn","message":"Failed login attempt for email: admin2@example.com","timestamp":"2025-03-07T02:46:33.008Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:46:33 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:46:33.010Z"}
+{"email":"admin2@example.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T02:48:04.875Z"}
+{"level":"warn","message":"Failed login attempt for email: admin2@example.com","timestamp":"2025-03-07T02:48:05.050Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:48:05 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:48:05.064Z"}
+{"email":"admin2@example.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T02:49:47.824Z"}
+{"level":"info","message":"User signed in successfully: admin2@example.com","timestamp":"2025-03-07T02:49:48.025Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:49:48 +0000] \"POST /user/signin HTTP/1.1\" 202 255 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:49:48.030Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:55:00 +0000] \"POST /book/addbook HTTP/1.1\" 400 43 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:55:00.632Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:56:24 +0000] \"POST /book/addbook HTTP/1.1\" 400 43 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:56:24.691Z"}
+{"level":"info","message":"Book created successfully","timestamp":"2025-03-07T02:57:10.993Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:57:10 +0000] \"POST /book/addbook HTTP/1.1\" 201 329 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:57:10.998Z"}
+{"email":"gmalak541@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T03:00:52.369Z"}
+{"level":"warn","message":"Failed login attempt for email: gmalak541@gmail.com","timestamp":"2025-03-07T03:00:52.570Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:00:52 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:00:52.580Z"}
+{"email":"gmalak541@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T03:03:56.885Z"}
+{"level":"warn","message":"Failed login attempt for email: gmalak541@gmail.com","timestamp":"2025-03-07T03:03:57.097Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:03:57 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:03:57.108Z"}
+{"email":"shahdfayez@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T03:04:40.653Z"}
+{"email":"shahdfayez@gmail.com","level":"info","message":"User signed up successfully","timestamp":"2025-03-07T03:04:41.025Z","userId":"67ca62481cb4cbfa826c0826"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:04:41 +0000] \"POST /user/signup HTTP/1.1\" 201 524 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:04:41.041Z"}
+{"email":"shahdfayez@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T03:05:08.492Z"}
+{"level":"warn","message":"Failed login attempt for email: shahdfayez@gmail.com","timestamp":"2025-03-07T03:05:08.672Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:05:08 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:05:08.675Z"}
+{"email":"shahdfayez@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T03:06:40.192Z"}
+{"level":"info","message":"User signed in successfully: shahdfayez@gmail.com","timestamp":"2025-03-07T03:06:40.373Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:06:40 +0000] \"POST /user/signin HTTP/1.1\" 202 258 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:06:40.375Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:07:37 +0000] \"POST /book/addbook HTTP/1.1\" 403 40 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:07:37.977Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:21:54:25 +0000] \"POST /user/signup HTTP/1.1\" 200 978 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T21:54:25.928Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:21:55:16 +0000] \"POST /user/signup HTTP/1.1\" 200 812 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T21:55:16.789Z"}
+{"email":"tmalak145@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-06T22:08:28.996Z"}
+{"email":"tmalak145@gmail.com","level":"info","message":"User signed up successfully","timestamp":"2025-03-06T22:08:29.507Z","userId":"67ca1cddfcd8ecb9b5eeed43"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:08:29 +0000] \"POST /user/signup HTTP/1.1\" 201 523 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:08:29.528Z"}
+{"email":"tmalak145@gmail.com","level":"info","message":"Confirm Email request received","timestamp":"2025-03-06T22:09:15.199Z"}
+{"level":"info","message":"Email confirmed successfully: tmalak145@gmail.com","timestamp":"2025-03-06T22:09:15.533Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:09:15 +0000] \"PATCH /user/confirm-email HTTP/1.1\" 200 145 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:09:15.536Z"}
+{"email":"tmalak145@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-06T22:09:42.867Z"}
+{"level":"info","message":"User signed in successfully: tmalak145@gmail.com","timestamp":"2025-03-06T22:09:43.105Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:09:43 +0000] \"POST /user/signin HTTP/1.1\" 202 257 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:09:43.107Z"}
+{"level":"info","message":"User updated successfully: 67ca1cddfcd8ecb9b5eeed43","timestamp":"2025-03-06T22:11:20.672Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:11:20 +0000] \"PATCH /user/update HTTP/1.1\" 200 471 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:11:20.674Z"}
+{"email":"tmalak145@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-06T22:13:49.517Z"}
+{"level":"warn","message":"Failed login attempt for email: tmalak145@gmail.com","timestamp":"2025-03-06T22:13:49.666Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:13:49 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:13:49.674Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:14:42 +0000] \"PATCH /user/soft-del HTTP/1.1\" 400 197 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:14:42.661Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-06T22:15:54.439Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"User signed up successfully","timestamp":"2025-03-06T22:15:54.946Z","userId":"67ca1e9afcd8ecb9b5eeed4e"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:15:54 +0000] \"POST /user/signup HTTP/1.1\" 201 527 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:15:54.950Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Confirm Email request received","timestamp":"2025-03-06T22:16:34.200Z"}
+{"level":"info","message":"Email confirmed successfully: malakghazy16@gmail.com","timestamp":"2025-03-06T22:16:34.576Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:16:34 +0000] \"PATCH /user/confirm-email HTTP/1.1\" 200 145 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:16:34.578Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-06T22:17:13.981Z"}
+{"level":"info","message":"User signed in successfully: malakghazy16@gmail.com","timestamp":"2025-03-06T22:17:14.258Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:17:14 +0000] \"POST /user/signin HTTP/1.1\" 202 261 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:17:14.260Z"}
+{"level":"info","message":"User updated successfully: 67ca1e9afcd8ecb9b5eeed4e","timestamp":"2025-03-06T22:17:40.967Z"}
+{"level":"info","message":"::1 - - [06/Mar/2025:22:17:40 +0000] \"PATCH /user/update HTTP/1.1\" 200 475 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-06T22:17:40.969Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T00:31:02.220Z"}
+{"level":"info","message":"User signed in successfully: malakghazy16@gmail.com","timestamp":"2025-03-07T00:31:02.486Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:00:31:02 +0000] \"POST /user/signin HTTP/1.1\" 202 261 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T00:31:02.494Z"}
+{"level":"info","message":"User updated successfully: 67ca1e9afcd8ecb9b5eeed4e","timestamp":"2025-03-07T00:31:28.753Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:00:31:28 +0000] \"PATCH /user/update HTTP/1.1\" 200 474 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T00:31:28.757Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Password reset request received","timestamp":"2025-03-07T00:50:15.286Z"}
+{"level":"info","message":"Password reset code sent to: malakghazy16@gmail.com","timestamp":"2025-03-07T00:50:18.011Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:00:50:18 +0000] \"PATCH /user/send-code HTTP/1.1\" 202 18 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T00:50:18.018Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Password reset request received","timestamp":"2025-03-07T00:51:11.313Z"}
+{"level":"info","message":"Password reset code sent to: malakghazy16@gmail.com","timestamp":"2025-03-07T00:51:13.726Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:00:51:13 +0000] \"PATCH /user/send-code HTTP/1.1\" 202 34 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T00:51:13.732Z"}
+{"level":"info","message":"Password reset request received","timestamp":"2025-03-07T00:51:29.733Z"}
+{"level":"info","message":"Password reset successfully for: malakghazy16@gmail.com","timestamp":"2025-03-07T00:51:30.217Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:00:51:30 +0000] \"PATCH /user/reset-pass HTTP/1.1\" 202 39 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T00:51:30.220Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:00:54:33 +0000] \"PATCH /user/change-pass HTTP/1.1\" 400 383 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T00:54:33.431Z"}
+{"level":"info","message":"Change Password request received","route":"/change-password","timestamp":"2025-03-07T00:56:37.427Z","userId":"67ca1e9afcd8ecb9b5eeed4e"}
+{"level":"info","message":"User ID: 67ca1e9afcd8ecb9b5eeed4e - Initiating password change","timestamp":"2025-03-07T00:56:37.432Z","userId":"67ca1e9afcd8ecb9b5eeed4e"}
+{"level":"info","message":"User ID: 67ca1e9afcd8ecb9b5eeed4e - Checking old password","timestamp":"2025-03-07T00:56:37.616Z","userId":"67ca1e9afcd8ecb9b5eeed4e"}
+{"level":"info","message":"User ID: 67ca1e9afcd8ecb9b5eeed4e - Old password verified, checking new password","timestamp":"2025-03-07T00:56:37.711Z","userId":"67ca1e9afcd8ecb9b5eeed4e"}
+{"level":"info","message":"User ID: 67ca1e9afcd8ecb9b5eeed4e - Updating password","timestamp":"2025-03-07T00:56:37.767Z","userId":"67ca1e9afcd8ecb9b5eeed4e"}
+{"level":"info","message":"User ID: 67ca1e9afcd8ecb9b5eeed4e - Password updated successfully","timestamp":"2025-03-07T00:56:38.150Z","userId":"67ca1e9afcd8ecb9b5eeed4e"}
+{"level":"info","message":"::1 - - [07/Mar/2025:00:56:38 +0000] \"PATCH /user/change-pass HTTP/1.1\" 200 43 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T00:56:38.159Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:00:57:30 +0000] \"PATCH /user/soft-del HTTP/1.1\" 400 197 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T00:57:30.158Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:01:00:10 +0000] \"PATCH /user/soft-del HTTP/1.1\" 400 145 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T01:00:10.804Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:01:00:39 +0000] \"PATCH /user/soft-del HTTP/1.1\" 400 136 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T01:00:39.112Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:01:02:40 +0000] \"PATCH /user/soft-del HTTP/1.1\" 400 145 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T01:02:40.238Z"}
+{"level":"info","message":"User soft-deleted: 67ca1e9afcd8ecb9b5eeed4e","timestamp":"2025-03-07T01:06:17.780Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:01:06:17 +0000] \"PATCH /user/soft-del HTTP/1.1\" 200 488 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T01:06:17.795Z"}
+{"level":"info","message":"User logged out successfully","timestamp":"2025-03-07T01:07:22.047Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:01:07:22 +0000] \"POST /user/logout HTTP/1.1\" 200 37 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T01:07:22.058Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T01:50:29.845Z"}
+{"level":"warn","message":"Failed login attempt for email: malakghazy16@gmail.com","timestamp":"2025-03-07T01:50:30.506Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:01:50:30 +0000] \"POST /user/signin HTTP/1.1\" 404 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T01:50:30.509Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T01:50:47.285Z"}
+{"level":"warn","message":"Signup attempt with existing email: malakghazy16@gmail.com","timestamp":"2025-03-07T01:50:47.918Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:01:50:47 +0000] \"POST /user/signup HTTP/1.1\" 409 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T01:50:47.919Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T01:53:48.589Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:01:53:50 +0000] \"POST /user/signup HTTP/1.1\" 500 36 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T01:53:50.192Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T01:59:39.115Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:01:59:40 +0000] \"POST /user/signup HTTP/1.1\" 500 36 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T01:59:40.484Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T02:02:42.581Z"}
+{"level":"info","message":"Reactivated user with email: malakghazy16@gmail.com","timestamp":"2025-03-07T02:02:47.125Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:02:48 +0000] \"POST /user/signup HTTP/1.1\" 500 36 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:02:48.116Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T02:04:45.163Z"}
+{"level":"info","message":"Reactivated user with email: malakghazy16@gmail.com","timestamp":"2025-03-07T02:04:45.640Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:04:46 +0000] \"POST /user/signup HTTP/1.1\" 500 36 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:04:46.168Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T02:07:23.617Z"}
+{"level":"warn","message":"Signup attempt with existing email: malakghazy16@gmail.com","timestamp":"2025-03-07T02:07:29.190Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:07:29 +0000] \"POST /user/signup HTTP/1.1\" 409 49 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:07:29.194Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T02:08:15.227Z"}
+{"level":"warn","message":"Signup attempt with existing email: malakghazy16@gmail.com","timestamp":"2025-03-07T02:08:17.535Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:08:17 +0000] \"POST /user/signup HTTP/1.1\" 409 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:08:17.538Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T02:11:22.426Z"}
+{"level":"warn","message":"Signup attempt with existing email: malakghazy16@gmail.com","timestamp":"2025-03-07T02:11:27.822Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:11:27 +0000] \"POST /user/signup HTTP/1.1\" 409 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:11:27.833Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T02:11:34.149Z"}
+{"level":"warn","message":"Signup attempt with existing email: malakghazy16@gmail.com","timestamp":"2025-03-07T02:11:34.650Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:11:34 +0000] \"POST /user/signup HTTP/1.1\" 409 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:11:34.651Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T02:11:45.298Z"}
+{"level":"warn","message":"Signup attempt with existing email: malakghazy16@gmail.com","timestamp":"2025-03-07T02:11:46.831Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:11:46 +0000] \"POST /user/signup HTTP/1.1\" 409 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:11:46.833Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T02:16:46.691Z"}
+{"level":"warn","message":"Signup attempt with existing email: malakghazy16@gmail.com","timestamp":"2025-03-07T02:16:54.853Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:16:54 +0000] \"POST /user/signup HTTP/1.1\" 409 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:16:54.856Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T02:18:57.339Z"}
+{"level":"info","message":"Reactivated user with email: malakghazy16@gmail.com","timestamp":"2025-03-07T02:18:59.062Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:18:59 +0000] \"POST /user/signup HTTP/1.1\" 201 515 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:18:59.064Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T02:19:55.663Z"}
+{"level":"info","message":"Reactivated user with email: malakghazy16@gmail.com","timestamp":"2025-03-07T02:19:59.363Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:19:59 +0000] \"POST /user/signup HTTP/1.1\" 201 514 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:19:59.365Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T02:21:18.454Z"}
+{"level":"info","message":"Reactivated user with email: malakghazy16@gmail.com","timestamp":"2025-03-07T02:21:19.964Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:21:19 +0000] \"POST /user/signup HTTP/1.1\" 201 515 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:21:19.969Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T02:47:58.328Z"}
+{"level":"warn","message":"Failed login attempt for email: malakghazy16@gmail.com","timestamp":"2025-03-07T02:47:58.544Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:47:58 +0000] \"POST /user/signin HTTP/1.1\" 404 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:47:58.548Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T02:55:17.727Z"}
+{"level":"info","message":"Reactivated user with email: malakghazy16@gmail.com","timestamp":"2025-03-07T02:55:18.151Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:02:55:19 +0000] \"POST /user/signup HTTP/1.1\" 201 548 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T02:55:19.647Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T03:00:26.454Z"}
+{"level":"info","message":"Reactivated and updated user with email: malakghazy16@gmail.com","timestamp":"2025-03-07T03:00:26.870Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:00:28 +0000] \"POST /user/signup HTTP/1.1\" 201 552 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:00:28.230Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Confirm Email request received","timestamp":"2025-03-07T03:00:57.018Z"}
+{"level":"info","message":"Email confirmed successfully: malakghazy16@gmail.com","timestamp":"2025-03-07T03:00:57.338Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:00:57 +0000] \"PATCH /user/confirm-email HTTP/1.1\" 200 145 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:00:57.340Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T03:01:03.380Z"}
+{"email":"malakghazy16@gmail.com","level":"warn","message":"Invalid credentials - wrong password","timestamp":"2025-03-07T03:01:03.640Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:01:03 +0000] \"POST /user/signin HTTP/1.1\" 404 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:01:03.642Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T03:02:37.464Z"}
+{"email":"malakghazy16@gmail.com","level":"warn","message":"Invalid credentials - wrong password","timestamp":"2025-03-07T03:02:37.707Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:02:37 +0000] \"POST /user/signin HTTP/1.1\" 404 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:02:37.709Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T03:06:22.023Z"}
+{"email":"malakghazy16@gmail.com","level":"warn","message":"Invalid credentials - wrong password","timestamp":"2025-03-07T03:06:22.337Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:06:22 +0000] \"POST /user/signin HTTP/1.1\" 401 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:06:22.346Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T03:06:55.253Z"}
+{"email":"malakghazy16@gmail.com","level":"warn","message":"Invalid credentials - wrong password","timestamp":"2025-03-07T03:06:55.588Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:06:55 +0000] \"POST /user/signin HTTP/1.1\" 401 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:06:55.597Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T03:09:29.492Z"}
+{"level":"info","message":"Reactivated and updated user with email: malakghazy16@gmail.com","timestamp":"2025-03-07T03:09:29.926Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:09:31 +0000] \"POST /user/signup HTTP/1.1\" 201 552 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:09:31.364Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Confirm Email request received","timestamp":"2025-03-07T03:09:42.799Z"}
+{"level":"info","message":"Email confirmed successfully: malakghazy16@gmail.com","timestamp":"2025-03-07T03:09:43.194Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:09:43 +0000] \"PATCH /user/confirm-email HTTP/1.1\" 200 145 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:09:43.196Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T03:09:50.516Z"}
+{"email":"malakghazy16@gmail.com","level":"warn","message":"Invalid credentials - wrong password","timestamp":"2025-03-07T03:09:50.796Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:09:50 +0000] \"POST /user/signin HTTP/1.1\" 401 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:09:50.799Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T03:11:12.187Z"}
+{"level":"warn","message":"Signup attempt with existing email: malakghazy16@gmail.com","timestamp":"2025-03-07T03:11:12.429Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:11:12 +0000] \"POST /user/signup HTTP/1.1\" 409 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:11:12.432Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T03:12:16.182Z"}
+{"level":"info","message":"Reactivated and updated user with email: malakghazy16@gmail.com","timestamp":"2025-03-07T03:12:16.528Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:12:17 +0000] \"POST /user/signup HTTP/1.1\" 201 552 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:12:17.846Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Confirm Email request received","timestamp":"2025-03-07T03:12:34.898Z"}
+{"level":"info","message":"Email confirmed successfully: malakghazy16@gmail.com","timestamp":"2025-03-07T03:12:35.219Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:12:35 +0000] \"PATCH /user/confirm-email HTTP/1.1\" 200 145 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:12:35.221Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T03:12:41.333Z"}
+{"email":"malakghazy16@gmail.com","level":"warn","message":"Invalid credentials - wrong password","timestamp":"2025-03-07T03:12:41.562Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:12:41 +0000] \"POST /user/signin HTTP/1.1\" 401 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:12:41.564Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T03:12:46.880Z"}
+{"email":"malakghazy16@gmail.com","level":"warn","message":"Invalid credentials - wrong password","timestamp":"2025-03-07T03:12:47.110Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:12:47 +0000] \"POST /user/signin HTTP/1.1\" 401 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:12:47.112Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T03:16:13.186Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:16:13 +0000] \"POST /user/signup HTTP/1.1\" 500 2 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:16:13.383Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T03:16:19.439Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:16:19 +0000] \"POST /user/signup HTTP/1.1\" 500 2 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:16:19.597Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T03:18:22.493Z"}
+{"level":"info","message":"Reactivated and updated user with email: malakghazy16@gmail.com","timestamp":"2025-03-07T03:18:23.023Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:18:24 +0000] \"POST /user/signup HTTP/1.1\" 201 552 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:18:24.465Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Confirm Email request received","timestamp":"2025-03-07T03:18:40.387Z"}
+{"level":"info","message":"Email confirmed successfully: malakghazy16@gmail.com","timestamp":"2025-03-07T03:18:40.839Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:18:40 +0000] \"PATCH /user/confirm-email HTTP/1.1\" 200 145 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:18:40.841Z"}
+{"email":"malakghazy16@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T03:18:46.818Z"}
+{"level":"info","message":"User signed in successfully: malakghazy16@gmail.com","timestamp":"2025-03-07T03:18:47.049Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:18:47 +0000] \"POST /user/signin HTTP/1.1\" 202 261 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:18:47.053Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:19:14 +0000] \"PATCH /user/soft-del HTTP/1.1\" 401 85 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:19:14.471Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:19:52 +0000] \"POST /user/logout HTTP/1.1\" 401 85 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:19:52.274Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:29:39 +0000] \"POST /user/logout HTTP/1.1\" 401 82 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:29:39.919Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:30:47 +0000] \"POST /user/logout HTTP/1.1\" 401 85 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:30:47.748Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:33:36 +0000] \"POST /user/logout HTTP/1.1\" 401 85 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:33:36.284Z"}
+{"level":"info","message":"User logged out successfully","timestamp":"2025-03-07T03:34:44.642Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:34:44 +0000] \"POST /user/logout HTTP/1.1\" 200 37 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:34:44.654Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:35:06 +0000] \"PATCH /user/soft-del HTTP/1.1\" 401 34 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:35:06.998Z"}
+{"email":"test@example.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T03:36:47.038Z"}
+{"email":"test@example.com","level":"info","message":"User signed up successfully","timestamp":"2025-03-07T03:36:47.827Z","userId":"67ca69cf97256610e283db6e"}
+{"level":"info","message":"::1 - - [07/Mar/2025:03:36:49 +0000] \"POST /user/signup HTTP/1.1\" 201 521 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T03:36:49.358Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:06:14:56 +0000] \"POST /payment HTTP/1.1\" 200 80 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T06:14:56.045Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:06:27:31 +0000] \"POST /payment HTTP/1.1\" 500 43 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T06:27:31.760Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:06:28:25 +0000] \"POST /payment HTTP/1.1\" 500 58 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T06:28:25.152Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T13:07:54.817Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"User signed up successfully","timestamp":"2025-03-07T13:07:55.208Z","userId":"67caefab5b7126150d87ba3d"}
+{"level":"info","message":"::1 - - [07/Mar/2025:13:07:55 +0000] \"POST /user/signup HTTP/1.1\" 500 2 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T13:07:55.212Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T13:11:47.807Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"User signed up successfully","timestamp":"2025-03-07T13:11:48.301Z","userId":"67caf0947539f9427fab169f"}
+{"level":"info","message":"::1 - - [07/Mar/2025:13:11:48 +0000] \"POST /user/signup HTTP/1.1\" 500 2 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T13:11:48.309Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T13:16:00.319Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"User signed up successfully","timestamp":"2025-03-07T13:16:00.785Z","userId":"67caf190c90283e0b4e28130"}
+{"level":"info","message":"::1 - - [07/Mar/2025:13:16:00 +0000] \"POST /user/signup HTTP/1.1\" 500 2 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T13:16:00.799Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T13:18:40.560Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"User signed up successfully","timestamp":"2025-03-07T13:18:41.147Z","userId":"67caf23026fbdb9593bf1d71"}
+{"error":{},"level":"error","message":"Error sending email","timestamp":"2025-03-07T13:18:41.150Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:13:18:41 +0000] \"POST /user/signup HTTP/1.1\" 500 2 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T13:18:41.160Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T13:25:53.055Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"User signed up successfully","timestamp":"2025-03-07T13:25:53.791Z","userId":"67caf3e19fb6df05e5c06a19"}
+{"error":{},"level":"error","message":"Error sending email","timestamp":"2025-03-07T13:25:53.808Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:13:25:53 +0000] \"POST /user/signup HTTP/1.1\" 500 2 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T13:25:53.838Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T13:28:29.548Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"User signed up successfully","timestamp":"2025-03-07T13:28:30.132Z","userId":"67caf47d0c8d5cf770abf5b5"}
+{"level":"info","message":"::1 - - [07/Mar/2025:13:28:31 +0000] \"POST /user/signup HTTP/1.1\" 201 529 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T13:28:31.771Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"Confirm Email request received","timestamp":"2025-03-07T13:40:03.072Z"}
+{"level":"info","message":"Email confirmed successfully: malak.ghazyy16@gmail.com","timestamp":"2025-03-07T13:40:03.452Z"}
+{"error":{},"level":"error","message":"Error sending email","timestamp":"2025-03-07T13:40:03.452Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:13:40:03 +0000] \"PATCH /user/confirm-email HTTP/1.1\" 500 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T13:40:03.457Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"Confirm Email request received","timestamp":"2025-03-07T13:41:32.330Z"}
+{"level":"warn","message":"Invalid confirmation code for email: malak.ghazyy16@gmail.com","timestamp":"2025-03-07T13:41:32.498Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:13:41:32 +0000] \"PATCH /user/confirm-email HTTP/1.1\" 400 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T13:41:32.501Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"Confirm Email request received","timestamp":"2025-03-07T13:42:43.924Z"}
+{"level":"info","message":"Email confirmed successfully: malak.ghazyy16@gmail.com","timestamp":"2025-03-07T13:42:44.381Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:13:42:45 +0000] \"PATCH /user/confirm-email HTTP/1.1\" 200 145 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T13:42:45.816Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T13:43:07.552Z"}
+{"level":"info","message":"User signed in successfully: malak.ghazyy16@gmail.com","timestamp":"2025-03-07T13:43:07.726Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:13:43:07 +0000] \"POST /user/signin HTTP/1.1\" 202 263 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T13:43:07.727Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:13:43:26 +0000] \"PATCH /user/update HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T13:43:26.563Z"}
+{"level":"info","message":"User updated successfully: 67caf47d0c8d5cf770abf5b5","timestamp":"2025-03-07T13:44:19.717Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:13:44:19 +0000] \"PATCH /user/update HTTP/1.1\" 200 476 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T13:44:19.722Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T13:50:12.564Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T13:50:14.434Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T13:50:14.569Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T13:56:16.618Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T13:56:18.674Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T13:56:18.809Z"}
+{"error":{},"level":"error","message":"Error sending email","timestamp":"2025-03-07T14:11:05.673Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:14:11:05 +0000] \"PATCH /user/update HTTP/1.1\" 500 14 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T14:11:05.677Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T14:11:51.853Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T14:11:52.573Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T14:11:52.708Z"}
+{"level":"info","message":"User updated successfully: 67caf47d0c8d5cf770abf5b5","timestamp":"2025-03-07T14:11:57.939Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:14:11:57 +0000] \"PATCH /user/update HTTP/1.1\" 200 472 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T14:11:57.944Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"Confirm Email request received","timestamp":"2025-03-07T14:12:41.257Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"error","message":"Email not found","timestamp":"2025-03-07T14:12:41.395Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:14:12:41 +0000] \"PATCH /user/confirm-email HTTP/1.1\" 500 2 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T14:12:41.397Z"}
+{"email":"gmalak541@gmail.com","level":"info","message":"Confirm Email request received","timestamp":"2025-03-07T14:13:16.489Z"}
+{"level":"info","message":"Email confirmed successfully: gmalak541@gmail.com","timestamp":"2025-03-07T14:13:16.950Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:14:13:18 +0000] \"PATCH /user/confirm-email HTTP/1.1\" 200 145 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T14:13:18.284Z"}
+{"email":"gmalak541@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T14:13:43.110Z"}
+{"level":"info","message":"User signed in successfully: gmalak541@gmail.com","timestamp":"2025-03-07T14:13:43.281Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:14:13:43 +0000] \"POST /user/signin HTTP/1.1\" 202 257 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T14:13:43.282Z"}
+{"email":"gmalak541@gmail.com","level":"info","message":"Password reset request received","timestamp":"2025-03-07T14:14:44.291Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:14:14:44 +0000] \"PATCH /user/send-code HTTP/1.1\" 500 2 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T14:14:44.427Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T14:18:14.057Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T14:18:14.756Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T14:18:14.891Z"}
+{"email":"gmalak541@gmail.com","level":"info","message":"Password reset request received","timestamp":"2025-03-07T14:18:21.484Z"}
+{"level":"info","message":"Password reset code sent to: gmalak541@gmail.com","timestamp":"2025-03-07T14:18:23.170Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:14:18:23 +0000] \"PATCH /user/send-code HTTP/1.1\" 202 34 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T14:18:23.174Z"}
+{"level":"info","message":"Password reset request received","timestamp":"2025-03-07T14:19:41.684Z"}
+{"level":"info","message":"Password reset successfully for: gmalak541@gmail.com","timestamp":"2025-03-07T14:19:42.002Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:14:19:42 +0000] \"PATCH /user/reset-pass HTTP/1.1\" 202 39 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T14:19:42.003Z"}
+{"email":"gmalak541@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T14:20:18.189Z"}
+{"level":"info","message":"User signed in successfully: gmalak541@gmail.com","timestamp":"2025-03-07T14:20:18.573Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:14:20:18 +0000] \"POST /user/signin HTTP/1.1\" 202 257 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T14:20:18.574Z"}
+{"level":"info","message":"User soft-deleted: 67caf47d0c8d5cf770abf5b5","timestamp":"2025-03-07T14:20:39.330Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:14:20:39 +0000] \"PATCH /user/soft-del HTTP/1.1\" 200 485 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T14:20:39.333Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:14:20:54 +0000] \"POST /user/logout HTTP/1.1\" 401 34 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T14:20:54.457Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T14:22:44.290Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T14:22:44.995Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T14:22:45.129Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T14:27:41.037Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T14:27:41.715Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T14:27:41.853Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T14:27:42.018Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T14:27:42.018Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T14:27:42.018Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T14:29:38.452Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T14:29:39.147Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T14:29:39.293Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T14:29:39.451Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T14:29:39.451Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T14:29:39.451Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T14:30:31.271Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T14:30:31.950Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T14:30:32.084Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T14:30:32.239Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T14:30:32.239Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T14:30:32.240Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T14:53:09.701Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T14:53:10.675Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T14:53:11.804Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T14:53:11.962Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T14:53:11.962Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T14:53:11.963Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T15:08:36.951Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T15:08:37.634Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T15:08:37.772Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T15:08:37.910Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T15:08:37.911Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T15:08:37.911Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T15:10:17.066Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T15:10:18.171Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T15:10:18.346Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T15:10:18.497Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T15:10:18.498Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T15:10:18.498Z"}
+{"error":{},"level":"error","message":"Error creating default admins","timestamp":"2025-03-07T18:06:40.013Z"}
+{"level":"error","message":"Error in scheduled notification cleanup: Operation `notifications.deleteMany()` buffering timed out after 10000ms","timestamp":"2025-03-07T18:06:50.031Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T18:06:50.032Z"}
+{"error":{},"level":"error","message":"Error creating default admins","timestamp":"2025-03-07T18:09:31.185Z"}
+{"level":"error","message":"Error in scheduled notification cleanup: Operation `notifications.deleteMany()` buffering timed out after 10000ms","timestamp":"2025-03-07T18:09:41.204Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T18:09:41.206Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T18:12:27.596Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T18:12:29.369Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T18:12:29.511Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T18:12:29.741Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T18:12:29.741Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T18:12:29.743Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T18:25:37.854Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T18:25:38.743Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T18:25:40.380Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T18:25:40.801Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T18:25:40.801Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T18:25:40.801Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T18:30:17.008Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T18:30:19.209Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T18:30:19.426Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T18:30:19.836Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T18:30:19.836Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T18:30:19.836Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T18:32:07.053Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T18:32:08.887Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T18:32:09.095Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T18:32:09.231Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T18:32:09.232Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T18:32:09.232Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T18:36:56.688Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T18:36:57.386Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T18:36:57.547Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T18:36:57.684Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T18:36:57.684Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T18:36:57.684Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T18:37:29.698Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T18:37:30.377Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T18:37:30.512Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T18:37:30.649Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T18:37:30.649Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T18:37:30.650Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T18:38:10.851Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T18:38:11.527Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T18:38:11.662Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T18:38:11.807Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T18:38:11.808Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T18:38:11.808Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"info","message":"Signup request received","timestamp":"2025-03-07T18:42:27.770Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:18:42:28 +0000] \"POST /user/signup HTTP/1.1\" 500 70 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T18:42:28.032Z"}
+{"email":"gmalak541@gmail.com","level":"info","message":"Confirm Email request received","timestamp":"2025-03-07T18:42:40.848Z"}
+{"level":"warn","message":"Invalid confirmation code for email: gmalak541@gmail.com","timestamp":"2025-03-07T18:42:40.986Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:18:42:40 +0000] \"PATCH /user/confirm-email HTTP/1.1\" 400 41 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T18:42:40.987Z"}
+{"email":"gmalak541@gmail.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T18:42:46.233Z"}
+{"level":"warn","message":"Failed login attempt for email: gmalak541@gmail.com","timestamp":"2025-03-07T18:42:46.950Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:18:42:46 +0000] \"POST /user/signin HTTP/1.1\" 401 47 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T18:42:46.951Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T18:43:04.776Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T18:43:05.893Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T18:43:06.134Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T18:43:06.362Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T18:43:06.363Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T18:43:06.363Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T18:50:31.965Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T18:50:33.288Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T18:50:33.597Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T18:50:33.736Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T18:50:33.736Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T18:50:33.736Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T18:52:22.293Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T18:52:23.197Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T18:52:24.189Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T18:52:24.392Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T18:52:24.393Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T18:52:24.393Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T18:57:00.868Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T18:57:02.821Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T18:57:02.955Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T18:57:03.128Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T18:57:03.129Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T18:57:03.129Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T19:01:05.595Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T19:01:07.661Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T19:01:07.976Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T19:01:08.117Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T19:01:08.117Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T19:01:08.117Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T19:03:00.980Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T19:03:01.942Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T19:03:02.116Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T19:03:02.274Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T19:03:02.274Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T19:03:02.274Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T19:03:09.208Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T19:03:10.098Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T19:03:10.283Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T19:03:10.491Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T19:03:10.491Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T19:03:10.491Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T19:05:55.513Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T19:05:59.212Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T19:05:59.510Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T19:05:59.915Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T19:05:59.915Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T19:05:59.916Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T19:06:59.266Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T19:07:01.044Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T19:07:01.405Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T19:07:01.904Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T19:07:01.904Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T19:07:01.904Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T19:07:10.645Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T19:07:14.051Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T19:07:18.561Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T19:07:18.762Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T19:07:18.763Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T19:07:18.764Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T19:07:40.052Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T19:07:43.242Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T19:07:48.958Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T19:07:49.277Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T19:07:49.277Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T19:07:49.278Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T19:08:18.668Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T19:08:20.919Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T19:08:21.124Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T19:08:21.328Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T19:08:21.329Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T19:08:21.329Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T19:08:39.585Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T19:08:40.260Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T19:08:40.395Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T19:08:40.533Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T19:08:40.533Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T19:08:40.533Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T19:10:21.723Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T19:10:24.720Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T19:10:28.509Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T19:10:28.712Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T19:10:28.713Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T19:10:28.713Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T19:16:13.940Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T19:16:15.440Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T19:16:15.664Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T19:16:15.956Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T19:16:15.956Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T19:16:15.956Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T19:18:24.717Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T19:18:25.395Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T19:18:25.530Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T19:18:25.666Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T19:18:25.666Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T19:18:25.666Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T19:18:33.735Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T19:18:35.133Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T19:18:35.275Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T19:18:35.417Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T19:18:35.417Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T19:18:35.417Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T22:50:15.542Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T22:50:16.189Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T22:50:16.362Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T22:50:16.535Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T22:50:16.536Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T22:50:16.536Z"}
+{"email":"admin1@example.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T22:50:29.316Z"}
+{"level":"info","message":"User signed in successfully: admin1@example.com","timestamp":"2025-03-07T22:50:29.522Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:22:50:29 +0000] \"POST /user/signin HTTP/1.1\" 202 255 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T22:50:29.528Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:22:51:44 +0000] \"POST /book/addbook HTTP/1.1\" 401 62 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T22:51:44.881Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:22:52:25 +0000] \"POST /book/addbook HTTP/1.1\" 401 62 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T22:52:25.820Z"}
+{"email":"admin1@example.com","level":"info","message":"Sign-in attempt","timestamp":"2025-03-07T22:54:39.705Z"}
+{"level":"info","message":"User signed in successfully: admin1@example.com","timestamp":"2025-03-07T22:54:39.980Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:22:54:39 +0000] \"POST /user/signin HTTP/1.1\" 202 255 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T22:54:39.981Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:22:55:01 +0000] \"POST /book/addbook HTTP/1.1\" 401 62 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T22:55:01.526Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:22:55:08 +0000] \"POST /book/addbook HTTP/1.1\" 401 62 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T22:55:08.585Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:22:56:15 +0000] \"POST /book/addbook HTTP/1.1\" 401 62 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T22:56:15.029Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T22:56:54.172Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T22:56:55.697Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T22:56:55.817Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T22:56:56.004Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T22:56:56.005Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T22:56:56.006Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:22:56:59 +0000] \"POST /book/addbook HTTP/1.1\" 401 62 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T22:56:59.709Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T22:59:21.733Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T22:59:23.459Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T22:59:23.584Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T22:59:23.765Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T22:59:23.766Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T22:59:23.767Z"}
+{"level":"info","message":"Book created successfully","timestamp":"2025-03-07T22:59:34.723Z"}
+{"level":"info","message":"Notification created for 16 recipients - Type: system, Title: New Book Added","timestamp":"2025-03-07T22:59:35.187Z"}
+{"level":"error","message":"Error creating book: Schema hasn't been registered for model \"Book\".\nUse mongoose.model(name, schema)","timestamp":"2025-03-07T22:59:35.347Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:22:59:35 +0000] \"POST /book/addbook HTTP/1.1\" 400 111 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T22:59:35.360Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T23:04:36.097Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T23:04:36.728Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T23:04:36.847Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T23:04:36.969Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T23:04:36.969Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T23:04:36.970Z"}
+{"level":"info","message":"Book created successfully","timestamp":"2025-03-07T23:05:48.387Z"}
+{"level":"error","message":"Error creating book: Notification validation failed: itemModel: `Books` is not a valid enum value for path `itemModel`.","timestamp":"2025-03-07T23:05:48.607Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:23:05:48 +0000] \"POST /book/addbook HTTP/1.1\" 400 126 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T23:05:48.621Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T23:08:25.160Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T23:08:26.003Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T23:08:26.239Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T23:08:26.397Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T23:08:26.398Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T23:08:26.399Z"}
+{"level":"info","message":"Fetching all books","timestamp":"2025-03-07T23:08:34.696Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:23:08:34 +0000] \"GET /book/allbooks HTTP/1.1\" 200 5730 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T23:08:34.705Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:23:09:10 +0000] \"GET /book/allbooks HTTP/1.1\" 200 5682 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T23:09:10.283Z"}
+{"level":"info","message":"Book created successfully","timestamp":"2025-03-07T23:11:29.976Z"}
+{"level":"info","message":"Notification created for 16 recipients - Type: system, Title: New Book Added","timestamp":"2025-03-07T23:11:30.410Z"}
+{"level":"error","message":"Error creating book: Schema hasn't been registered for model \"Book\".\nUse mongoose.model(name, schema)","timestamp":"2025-03-07T23:11:30.697Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:23:11:30 +0000] \"POST /book/addbook HTTP/1.1\" 400 111 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T23:11:30.701Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-07T23:12:22.828Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-07T23:12:23.553Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-07T23:12:23.678Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-07T23:12:23.805Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-07T23:12:23.806Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-07T23:12:23.807Z"}
+{"level":"info","message":"Book created successfully","timestamp":"2025-03-07T23:12:45.631Z"}
+{"level":"info","message":"Notification created for 16 recipients - Type: system, Title: New Book Added","timestamp":"2025-03-07T23:12:45.954Z"}
+{"level":"error","message":"Error creating book: Schema hasn't been registered for model \"Book\".\nUse mongoose.model(name, schema)","timestamp":"2025-03-07T23:12:46.170Z"}
+{"level":"info","message":"::1 - - [07/Mar/2025:23:12:46 +0000] \"POST /book/addbook HTTP/1.1\" 400 111 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-07T23:12:46.180Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-08T00:02:57.217Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-08T00:02:59.357Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-08T00:02:59.478Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-08T00:02:59.662Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-08T00:02:59.663Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-08T00:02:59.664Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-08T14:36:06.881Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-08T14:36:08.951Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-08T14:36:09.104Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-08T14:36:09.248Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-08T14:36:09.249Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-08T14:36:09.250Z"}
+{"level":"error","message":"Error creating book: E11000 duplicate key error collection: test.books index: title_1 dup key: { title: \"where the crawdads singggggggggggggggggggggg\" }","timestamp":"2025-03-08T14:36:56.408Z"}
+{"level":"info","message":"::1 - - [08/Mar/2025:14:36:56 +0000] \"POST /book/addbook HTTP/1.1\" 400 161 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-08T14:36:56.424Z"}
+{"level":"info","message":"Book created successfully","timestamp":"2025-03-08T14:37:14.765Z"}
+{"level":"info","message":"Notification created for 16 recipients - Type: system, Title: New Book Added","timestamp":"2025-03-08T14:37:15.087Z"}
+{"level":"error","message":"Error creating book: Schema hasn't been registered for model \"Book\".\nUse mongoose.model(name, schema)","timestamp":"2025-03-08T14:37:15.262Z"}
+{"level":"info","message":"::1 - - [08/Mar/2025:14:37:15 +0000] \"POST /book/addbook HTTP/1.1\" 400 111 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-08T14:37:15.265Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-08T14:39:03.765Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-08T14:39:04.464Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-08T14:39:04.607Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-08T14:39:04.747Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-08T14:39:04.747Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-08T14:39:04.748Z"}
+{"level":"info","message":"Book created successfully","timestamp":"2025-03-08T14:39:12.279Z"}
+{"level":"error","message":"Error creating book: Notification validation failed: itemModel: `Book` is not a valid enum value for path `itemModel`.","timestamp":"2025-03-08T14:39:12.449Z"}
+{"level":"info","message":"::1 - - [08/Mar/2025:14:39:12 +0000] \"POST /book/addbook HTTP/1.1\" 400 125 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-08T14:39:12.463Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-08T14:39:30.435Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-08T14:39:31.747Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-08T14:39:31.868Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-08T14:39:31.991Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-08T14:39:31.992Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-08T14:39:31.994Z"}
+{"level":"info","message":"Book created successfully","timestamp":"2025-03-08T14:39:39.161Z"}
+{"level":"info","message":"Notification created for 16 recipients - Type: system, Title: New Book Added","timestamp":"2025-03-08T14:39:39.469Z"}
+{"level":"info","message":"Notification sent to 16 users about new book","timestamp":"2025-03-08T14:39:39.811Z"}
+{"level":"info","message":"::1 - - [08/Mar/2025:14:39:39 +0000] \"POST /book/addbook HTTP/1.1\" 201 366 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-08T14:39:39.829Z"}
+{"error":{},"level":"error","message":"Error creating default admins","timestamp":"2025-03-08T21:14:41.630Z"}
+{"level":"error","message":"Error in scheduled notification cleanup: Operation `notifications.deleteMany()` buffering timed out after 10000ms","timestamp":"2025-03-08T21:14:51.687Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-08T21:14:51.688Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-08T21:22:53.630Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-08T21:22:55.663Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-08T21:23:01.257Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-08T21:23:01.822Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-08T21:23:01.822Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-08T21:23:01.822Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-08T22:06:14.509Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-08T22:06:15.294Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-08T22:06:15.416Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-08T22:06:15.650Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-08T22:06:15.651Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-08T22:06:15.652Z"}
+{"level":"info","message":"::1 - - [08/Mar/2025:22:06:36 +0000] \"POST /payment HTTP/1.1\" 200 80 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-08T22:06:36.194Z"}
+{"level":"info","message":"Admin admin1@example.com already exists","timestamp":"2025-03-08T22:08:57.448Z"}
+{"level":"info","message":"Admin admin2@example.com already exists","timestamp":"2025-03-08T22:08:58.856Z"}
+{"level":"info","message":"Admin admin3@example.com already exists","timestamp":"2025-03-08T22:08:58.973Z"}
+{"level":"info","message":"Cleaned up 0 old notifications","timestamp":"2025-03-08T22:08:59.098Z"}
+{"level":"info","message":"Scheduled cleanup: Removed 0 old notifications","timestamp":"2025-03-08T22:08:59.098Z"}
+{"level":"info","message":"Notification cleanup scheduled to run daily","timestamp":"2025-03-08T22:08:59.099Z"}
+{"level":"info","message":"Placing order for user 67ca5a8d9861ff715a559513","timestamp":"2025-03-08T22:09:16.542Z"}
+{"level":"info","message":"Total price calculated: 20.99","timestamp":"2025-03-08T22:09:16.794Z"}
+{"level":"info","message":"Order 67ccc00cf61154bdb6df428e placed successfully for user 67ca5a8d9861ff715a559513","timestamp":"2025-03-08T22:09:17.055Z"}

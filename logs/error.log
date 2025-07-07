@@ -1,0 +1,22 @@
+{"level":"error","message":"Error creating book: Books validation failed: reviews.0: Cast to [ObjectId] failed for value \"[ '1' ]\" (type string) at path \"reviews.0\" because of \"CastError\"","timestamp":"2025-03-06T23:43:12.430Z"}
+{"level":"error","message":"Error creating book: Books validation failed: title: Path `title` (`a`) is shorter than the minimum allowed length (3)., author: Path `author` is required., price: Path `price` (-5) is less than minimum allowed value (0)., stock: Validator failed for path `stock` with value `3.5`","timestamp":"2025-03-06T23:45:17.556Z"}
+{"level":"error","message":"Error fetching books: redisClient is not defined","timestamp":"2025-03-07T02:15:42.869Z"}
+{"level":"error","message":"Error fetching books: redisClient is not defined","timestamp":"2025-03-07T03:05:49.953Z"}
+{"error":{},"level":"error","message":"Error sending email","timestamp":"2025-03-07T13:18:41.150Z"}
+{"error":{},"level":"error","message":"Error sending email","timestamp":"2025-03-07T13:25:53.808Z"}
+{"error":{},"level":"error","message":"Error sending email","timestamp":"2025-03-07T13:40:03.452Z"}
+{"error":{},"level":"error","message":"Error sending email","timestamp":"2025-03-07T14:11:05.673Z"}
+{"email":"malak.ghazyy16@gmail.com","level":"error","message":"Email not found","timestamp":"2025-03-07T14:12:41.395Z"}
+{"error":{},"level":"error","message":"Error creating default admins","timestamp":"2025-03-07T18:06:40.013Z"}
+{"level":"error","message":"Error in scheduled notification cleanup: Operation `notifications.deleteMany()` buffering timed out after 10000ms","timestamp":"2025-03-07T18:06:50.031Z"}
+{"error":{},"level":"error","message":"Error creating default admins","timestamp":"2025-03-07T18:09:31.185Z"}
+{"level":"error","message":"Error in scheduled notification cleanup: Operation `notifications.deleteMany()` buffering timed out after 10000ms","timestamp":"2025-03-07T18:09:41.204Z"}
+{"level":"error","message":"Error creating book: Schema hasn't been registered for model \"Book\".\nUse mongoose.model(name, schema)","timestamp":"2025-03-07T22:59:35.347Z"}
+{"level":"error","message":"Error creating book: Notification validation failed: itemModel: `Books` is not a valid enum value for path `itemModel`.","timestamp":"2025-03-07T23:05:48.607Z"}
+{"level":"error","message":"Error creating book: Schema hasn't been registered for model \"Book\".\nUse mongoose.model(name, schema)","timestamp":"2025-03-07T23:11:30.697Z"}
+{"level":"error","message":"Error creating book: Schema hasn't been registered for model \"Book\".\nUse mongoose.model(name, schema)","timestamp":"2025-03-07T23:12:46.170Z"}
+{"level":"error","message":"Error creating book: E11000 duplicate key error collection: test.books index: title_1 dup key: { title: \"where the crawdads singggggggggggggggggggggg\" }","timestamp":"2025-03-08T14:36:56.408Z"}
+{"level":"error","message":"Error creating book: Schema hasn't been registered for model \"Book\".\nUse mongoose.model(name, schema)","timestamp":"2025-03-08T14:37:15.262Z"}
+{"level":"error","message":"Error creating book: Notification validation failed: itemModel: `Book` is not a valid enum value for path `itemModel`.","timestamp":"2025-03-08T14:39:12.449Z"}
+{"error":{},"level":"error","message":"Error creating default admins","timestamp":"2025-03-08T21:14:41.630Z"}
+{"level":"error","message":"Error in scheduled notification cleanup: Operation `notifications.deleteMany()` buffering timed out after 10000ms","timestamp":"2025-03-08T21:14:51.687Z"}
